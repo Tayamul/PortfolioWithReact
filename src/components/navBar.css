@@ -1,7 +1,10 @@
 .nav__container {
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    width: 100%;
+    height: 40px;
+    /* background-color: black; */
 }
 
 .nav-list {
