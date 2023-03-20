@@ -22,7 +22,14 @@
 
 .nav-list a {
     padding: 0px 10px;
-    color: #161616;
+    color: #151513;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-list a:hover {
+    cursor: pointer;
+    color: #ff808b;
+    /* color: #ff8983; */
 }
 
 .nav-list li:nth-child(4) {
