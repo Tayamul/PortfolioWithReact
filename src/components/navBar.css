@@ -8,6 +8,10 @@
     /* background-color: black; */
 }
 
+.nav__container p {
+    color: #161616;
+}
+
 .nav-list {
     display: flex;
 
@@ -16,5 +20,9 @@
 .nav-list a {
     text-decoration: none;
     padding: 0px 10px;
-    color: red;
+    color: #161616;
+}
+
+.nav-list li:nth-child(4) {
+    padding-right:10px;
 }
