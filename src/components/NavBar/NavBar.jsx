@@ -1,11 +1,11 @@
 import React from 'react'
-import './navBar.css'
+import classes from './NavBar.module.css'
 import MobileNavigation from './MobileNavigation'
 import Navigation from './Navigation'
 
 const NavBar = () => {
   return (
-    <header className='container nav__container'>
+    <header className={classes.NavBar}>
         <p>Tayamul Rai</p>
         <Navigation/>
         <MobileNavigation/>

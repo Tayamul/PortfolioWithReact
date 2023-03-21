@@ -1,3 +1,4 @@
+/*
 .nav__container {
     position: fixed;
     display: flex;
@@ -7,7 +8,6 @@
     height: 40px;
     padding: 20px;
     padding-bottom: 20px;
-    /* background-color: black; */
 }
 
 .nav__container p {
@@ -29,9 +29,16 @@
 .nav-list a:hover {
     cursor: pointer;
     color: #ff808b;
-    /* color: #ff8983; */
+    color: #ff8983; 
 }
+
 
 .nav-list li:nth-child(4) {
     padding-right:10px;
+}
+
+*/
+
+.NavBar .MobileNavigation {
+    display: none;
 }
