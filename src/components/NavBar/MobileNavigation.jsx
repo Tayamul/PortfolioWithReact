@@ -1,7 +1,11 @@
-import NavLinks from './NavLinks'
+import NavLinks from "./NavLinks";
 
 const MobileNavigation = () => {
-    return ("");
-}
+  return (
+    <nav className={classes.MobileNavigation}>
+      <NavLinks />
+    </nav>
+  );
+};
 
 export default MobileNavigation;

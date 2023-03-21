@@ -1,7 +1,11 @@
-import NavLinks from './NavLinks'
+import NavLinks from "./NavLinks";
 
 const Navigation = () => {
-    return ("");
-}
+  return (
+    <nav className={classes.Navigation}>
+      <NavLinks />
+    </nav>
+  );
+};
 
 export default Navigation;
