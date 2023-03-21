@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className={classes.NavBar}>
         <p>Tayamul Rai</p>
         <Navigation/>
-        {/* <MobileNavigation/> */}
+        <MobileNavigation/>
     </nav>
   )
 }

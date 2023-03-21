@@ -33,3 +33,18 @@
 .NavBar li:nth-child(4) {
     padding-right:10px;
 }
+
+.NavBar .MobileNavigation {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .NavBar .Navigation {
+        display: none;
+    }
+
+    .NavBar .MobileNavigation {
+        display: flex;
+        background: red;
+    }
+}
