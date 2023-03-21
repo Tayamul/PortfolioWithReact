@@ -1,12 +1,45 @@
-const NavLinks = ({isMobile, closeMobileMenu}) => {
-    return (
-        <ul className='nav-list'>
-        <li onClick={() => isMobile && closeMobileMenu()}><a href='#home'>Home</a></li>
-        <li onClick={() => isMobile && closeMobileMenu()}><a href='#about'>About</a></li>
-        <li onClick={() => isMobile && closeMobileMenu()}><a href='#projects'>Projects</a></li>
-        <li onClick={() => isMobile && closeMobileMenu()}><a href='#contact'>Contact</a></li>
+import { motion } from "framer-motion";
+
+const NavLinks = ({ isMobile, closeMobileMenu }) => {
+  const animateFrom = { opacity: 0, y: -40 };
+  const animateTo = { opacity: 1, y: 0 };
+
+  return (
+    <ul className="nav-list">
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.05 }}
+        onClick={() => isMobile && closeMobileMenu()}
+      >
+        <a href="#home">Home</a>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.10 }}
+        onClick={() => isMobile && closeMobileMenu()}
+      >
+        <a href="#about">About</a>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.20 }}
+        onClick={() => isMobile && closeMobileMenu()}
+      >
+        <a href="#projects">Projects</a>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.30 }}
+        onClick={() => isMobile && closeMobileMenu()}
+      >
+        <a href="#contact">Contact</a>
+      </motion.li>
     </ul>
-    );
-}
+  );
+};
 
 export default NavLinks;
