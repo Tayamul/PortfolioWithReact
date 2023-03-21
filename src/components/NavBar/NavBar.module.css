@@ -45,6 +45,6 @@
 
     .NavBar .MobileNavigation {
         display: flex;
-        background: red;
+        /* background: red; */
     }
 }
