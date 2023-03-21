@@ -1,0 +1,35 @@
+/* .NavBar nav ul {
+    list-style: none;
+
+} */
+
+.NavBar {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar li {
+    display: inline-block;
+    /* padding: 15px 20px; */
+    /* margin: 20px; */
+}
+
+.NavBar a {
+   color: #151513;
+   transition: all 0.3s ease 0s;
+   padding: 0px 10px;
+}
+
+.NavBar a:hover {
+    cursor: pointer;
+    color: #ff808b;
+}
+
+.NavBar li:nth-child(4) {
+    padding-right:10px;
+}

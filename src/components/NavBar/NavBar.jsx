@@ -5,11 +5,11 @@ import Navigation from './Navigation'
 
 const NavBar = () => {
   return (
-    <header className={classes.NavBar}>
+    <nav className={classes.NavBar}>
         <p>Tayamul Rai</p>
         <Navigation/>
-        <MobileNavigation/>
-    </header>
+        {/* <MobileNavigation/> */}
+    </nav>
   )
 }
 
