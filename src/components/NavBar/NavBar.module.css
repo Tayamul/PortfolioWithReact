@@ -4,56 +4,80 @@
 } */
 
 .NavBar {
-    height: 40px;
-    width: 100%;
-    position: fixed;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .NavBar li {
-    display: inline-block;
-    /* padding: 15px 20px; */
-    /* margin: 20px; */
+  display: inline-block;
+  padding: 15px 20px;
+  /* margin: 20px; */
 }
 
 .NavBar a {
-   color: #151513;
-   transition: all 0.3s ease 0s;
-   padding: 0px 10px;
+  color: #151513;
+  transition: all 0.3s ease 0s;
+  padding: 0px 10px;
 }
 
 .NavBar a:hover {
-    cursor: pointer;
-    color: #ff808b;
+  cursor: pointer;
+  color: #ff808b;
 }
 
 .NavBar li:nth-child(4) {
-    padding-right:10px;
+  padding-right: 10px;
 }
 
 .NavBar .MobileNavigation {
-    display: none;
+  display: none;
 }
 
-@media (max-width: 990px) {
-    .NavBar .Navigation {
-        display: none;
-    }
+@media (max-width: 600px) {
+  .NavBar .Navigation {
+    display: none;
+  }
 
-    .NavBar .MobileNavigation {
-        display: flex;
-        align-items: center;
-        /* background: red; */
-    }
+  .NavBar .MobileNavigation {
+    display: flex;
+    align-items: center;
+    background: transparent;
+  }
 
-    .NavBar .MobileNavigation .Hamburger {
-        position: absolute;
-        right: 2.5%;
-        cursor: pointer;
-        background: transparent;
-    }
+  .NavBar .MobileNavigation .Hamburger {
+    position: absolute;
+    right: 2.5%;
+    cursor: pointer;
+    background: transparent;
+  }
 
+  .NavBar nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: #faf9f6;
+    border-top: 0.5px solid #ff808b;
+  }
+
+  .NavBar li:nth-child(4) {
+    padding-left: 10px;
+  }
+
+  .NavBar nav ul li {
+    font-size: 2.1rem;
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 128, 139, 0.3);
+  }
 }
