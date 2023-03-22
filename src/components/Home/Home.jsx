@@ -16,22 +16,22 @@ const Home = () => {
     <main id="home">
       <div className="containers">
         <div className="content">
-          <div clÛassName="profile">
+          <div className="profile">
             <div id="profile-pic"></div>
             <div id="profile-summary">
               <h1>Front-End React Developer</h1>
               <p>
-                Hi I'm Tayamul Rai. A passionate Front-End React Developer based
+                Hi, I'm Tayamul Rai. A passionate Front-End React Developer based
                 in London, UK 📍
               </p>
-              <span>
-                <SiLinkedin size="30" />
-                <SiGithub size="30" />
-              </span>
+              <div id='socials'>
+                <SiLinkedin size="25" />
+                <SiGithub size="25" />
+              </div>
             </div>
           </div>
           <div className="tech-stack">
-            <p>Tech Stack   |    </p>
+            <p>Tech Stack | </p>
             <div className="logo">
               <ul>
                 <li>
