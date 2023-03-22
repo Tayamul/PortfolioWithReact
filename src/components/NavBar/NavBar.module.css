@@ -11,13 +11,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   top:0;
   background-color: #fff;
 }
 
 .NavBar p {
-  margin-left: 55px;
+  margin-left: 3.45rem;
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -86,10 +86,18 @@
   }
 
   .NavBar nav ul li {
-    font-size: 2.1rem;
+    /* font-size: 2.1rem; */
     width: 100%;
     padding: 45px;
     text-align: center;
     border-bottom: 1px solid rgba(255, 128, 139, 0.3);
+  }
+
+  .NavBar p {
+    margin-left: 1.25rem;
+  }
+
+  .NavBar a{
+    font-size: 2.1rem;
   }
 }
