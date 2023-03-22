@@ -15,7 +15,7 @@ import { SiGithub } from "react-icons/si";
 const Home = () => {
   return (
     <main id="home">
-      <div className="containers">
+      <div className="container">
         {/* <div className="content"> */}
           <div className="profile">
             <div id="profile-pic"></div>
