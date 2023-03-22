@@ -11,11 +11,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid black;
+  top:0;
+  background-color: #fff;
 }
 
 .NavBar li {
   display: inline-block;
-  padding: 15px 20px;
+  /* padding: 15px 20px; */
+  padding: 0px 20px;
   /* margin: 20px; */
 }
 
