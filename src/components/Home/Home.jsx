@@ -5,6 +5,7 @@ import html from "../../assets/html-1.svg";
 import css from "../../assets/css-3.svg";
 import js from "../../assets/javascript-1.svg";
 import node from "../../assets/nodejs-1.svg";
+import mui from "../../assets/material-ui-1.svg";
 import "./home.css";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
@@ -53,6 +54,13 @@ const Home = () => {
                   <img
                     src={firebase}
                     alt="firebase logo"
+                    className="logo-img"
+                  />
+                </li>
+                <li>
+                  <img
+                    src={mui}
+                    alt="material ui logo"
                     className="logo-img"
                   />
                 </li>

@@ -95,20 +95,30 @@
   gap: 0.8rem;
 }
 
+/*  Skills Section */
+
 .tech-stack {
   /* border: 1px solid green; */
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin: 1.3rem auto;
+  margin: 6.5rem auto;
   width: 60%;
 }
 
 .tech-stack p {
-  border-right: 1px solid black;
-  padding-right: 1.2rem;
+  border-right: 2px solid #767676;
+  padding-right: 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2d2e32;
 }
 
 .logo {
   display: flex;
+  align-items: center;
+}
+
+.logo li {
+  padding-left: 2.5rem;
 }
