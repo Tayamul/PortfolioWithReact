@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <main id="home">
       <div className="containers">
-        <div className="content">
+        {/* <div className="content"> */}
           <div className="profile">
             <div id="profile-pic"></div>
             <div id="profile-summary">
@@ -31,9 +31,9 @@ const Home = () => {
             </div>
           </div>
           <div className="tech-stack">
-            <p>Tech Stack | </p>
-            <div className="logo">
-              <ul>
+            <p>Tech Stack </p>
+            <div>
+              <ul className="logo">
                 <li>
                   <img src={js} alt="javascript logo" className="logo-img" />
                 </li>
@@ -59,7 +59,7 @@ const Home = () => {
               </ul>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </main>
   );
