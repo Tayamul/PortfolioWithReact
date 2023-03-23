@@ -13,7 +13,6 @@
   width: 75%;
 }
 
-
 #projects-container > h1 {
   font-weight: 700;
   line-height: 1.2;
@@ -44,6 +43,8 @@
   border-radius: 1.7rem;
 }
 
+/*
+div-img
 .projects-img {
   padding: 8rem;
   width: 30rem;
@@ -51,11 +52,25 @@
   border: 1px solid #ff808b;
 }
 
+*/
+.projects-img {
+  /* padding: 8rem; */
+  width: 27rem;
+  height: 16rem;
+  border-radius: 0.5rem;
+  /* border: 1px solid #ff808b; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-img2 {
+  display: none;
+}
+
 .projects-summary {
   max-width: 20rem;
   display: flex;
   flex-direction: column;
-  margin-left: 5rem;
+  margin-left: 3rem;
   align-items: center;
 }
 
@@ -109,7 +124,8 @@
   }
 }
 
-@media (max-width: 870px) {
+/* before it was 870px */
+@media (max-width: 990px) {
   #projects-container {
     width: 90%;
   }
@@ -117,9 +133,9 @@
   #projects-container > p {
     margin-left: 4rem;
   }
-  
+
   #projects-container > h1 {
-    font-size:1.2rem;
+    font-size: 1.2rem;
     margin-left: 4rem;
   }
 
@@ -129,8 +145,16 @@
     border-radius: 1.3rem;
   }
 
+  /*
+  div img
   .projects-img {
     border-radius: 1.1rem;
+  }
+*/
+
+  .projects-img {
+    width: 32rem;
+    height: 18rem;
   }
 
   .projects-summary {
@@ -139,6 +163,10 @@
 
   .projects-summary > p {
     font-size: 0.95rem;
+  }
+
+  .projects-summary h2 {
+    font-size: 1.1rem;
   }
 
   .live-code a {
@@ -161,13 +189,16 @@
 
   #projects-container > p {
     font-size: 1rem;
-    margin:0;
+    margin: 0;
   }
 
   .projects-section {
     border-radius: 1rem;
+    height: 35rem;
   }
 
+  /*
+  div img
   .projects-img {
     padding: 5rem;
     width: 100%;
@@ -175,6 +206,20 @@
     border-radius: 1.7rem;
     border: 1px solid #ff808b;
     border-radius: 1rem;
+  }
+*/
+
+  .projects-img {
+    display: none;
+
+  }
+
+  .projects-img2 {
+    display: block;
+    width: 14rem;
+    height: 15rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
   }
 
   .projects-section {
@@ -188,6 +233,10 @@
     max-width: 15rem;
   }
 
+  .projects-summary h2 {
+    font-size: 1rem;
+  }
+
   .tech-skills > p {
     margin: 0.9rem;
     padding: 0.5rem;
@@ -197,5 +246,4 @@
   .live-code a {
     font-size: 0.9rem;
   }
-
 }

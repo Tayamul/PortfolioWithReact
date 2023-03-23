@@ -3,6 +3,8 @@ import "./projects.css";
 import { SiGithub } from "react-icons/si";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { motion } from "framer-motion";
+import newsWeb from '../../assets/News-Web.png'
+import newsWeb2 from '../../assets/News-Web2.png'
 
 const Projects = () => {
   return (
@@ -12,7 +14,9 @@ const Projects = () => {
         <h1>Each project has its own feature and functionality</h1>
 
         <div className="projects-section">
-          <div className="projects-img"></div>
+          {/* <div className="projects-img"></div> */}
+          <img src={newsWeb} alt='News web app screenshot' className="projects-img" />
+          <img src={newsWeb2} alt='News web app screenshot' className="projects-img2" />
           <div className="projects-summary">
             <h2>NEWS WEB</h2>
             <p>
