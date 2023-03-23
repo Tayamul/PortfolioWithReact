@@ -24,7 +24,7 @@
   margin: 0.8rem 0;
 }
 
-#about-summary p {
+#about-summary > p {
   /* margin: 1.5rem 0; */
   font-weight: 500;
   font-size: 0.9rem;
@@ -60,10 +60,10 @@
     }
 
     #about-summary #about-title {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
-    #about-summary p {
+    #about-summary > p {
         font-size: 0.95rem;
     }
 
@@ -87,7 +87,7 @@
         font-size: 1rem;
     }
 
-    #about-summary p {
+    #about-summary > p {
         font-size: 0.8rem;
         line-height: 1.7;
     }

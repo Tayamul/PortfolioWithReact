@@ -161,11 +161,7 @@
   #profile-summary p {
     font-size: 1.1rem;
   }
-
-  #profile-summary h1 {
-    font-size: 3rem;
-  }
-
+  
   #socials {
     justify-content: center;
   }
@@ -183,6 +179,7 @@
     padding-right: 0;
     border-bottom: 2px solid #767676;
     padding-bottom: 0.5rem;
+    font-size: 1.1rem;
   }
 
   .logo {
@@ -216,4 +213,5 @@
   #profile-summary p {
     font-size: 1rem;
   }
+
 }
