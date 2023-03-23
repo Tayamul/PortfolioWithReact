@@ -1,22 +1,52 @@
-import React from 'react'
-import './projects.css'
+import React from "react";
+import "./projects.css";
+import { SiGithub } from "react-icons/si";
+import { BsArrowUpRightCircle } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <section id='projects'>
-        <p>PROJECTS</p>
+    <section id="projects">
+      <div id="projects-container">
+        <p>PORTFOLIO</p>
         <h1>Each project has its own feature and functionality</h1>
-        <div class='projects-container'>
-            <div id='projects-img'></div>
-            <div id='projects-summary'>
-                <h2>NEWS WEB</h2>
-                <p>A social discussion website enhancing user interaction with features including article rating, commenting, and article submission. </p>
-                <span><h5>React</h5><h5>CSS</h5><h5>Material UI</h5></span>
-                <span>Code Live Demo</span>
-            </div>
-        </div>
-    </section>
-  )
-}
 
-export default Projects
+        <div className="projects-section">
+          <div className="projects-img"></div>
+          <div className="projects-summary">
+            <h2>NEWS WEB</h2>
+            <p>
+              A social discussion website enhancing user interaction with
+              features including article rating, commenting, and article
+              submission.{" "}
+            </p>
+            <div className="tech-skills">
+              <p>React</p>
+              <p>CSS</p>
+              <p>MaterialUI</p>
+            </div>
+            <div className="live-code">
+              <a
+                href="https://github.com/Tayamul"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code
+                <SiGithub style={{ marginLeft: "5px" }} />
+              </a>
+              <a
+                href="https://tayanews.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+                <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
