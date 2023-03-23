@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import { SiGithub } from "react-icons/si";
 import { BsArrowUpRightCircle } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -25,22 +26,26 @@ const Projects = () => {
               <p>MaterialUI</p>
             </div>
             <div className="live-code">
-              <a
+              <motion.a
                 href="https://github.com/Tayamul"
                 target="_blank"
                 rel="noreferrer"
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
               >
                 Code
                 <SiGithub style={{ marginLeft: "5px" }} />
-              </a>
-              <a
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
                 href="https://tayanews.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >
                 Live Demo
                 <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
-              </a>
+              </motion.a>
             </div>
           </div>
         </div>
