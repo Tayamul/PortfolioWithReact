@@ -10,14 +10,14 @@
 
 #projects-container {
   margin: 80px auto;
-  width: 90%;
+  width: 75%;
 }
 
 #projects-container > p {
   color: #ff808b;
   font-weight: 500;
   font-size: 1rem;
-  margin-left: 2.2rem;
+  margin-left: 7.5rem;
 }
 
 #projects-container > h1 {
@@ -26,7 +26,7 @@
   font-size: 1.5rem;
   color: #2d2e32;
   margin: 0.8rem 0;
-  margin-left: 2.2rem;
+  margin-left: 7.5rem;
 }
 
 .projects-section {
