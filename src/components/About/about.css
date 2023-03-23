@@ -1,0 +1,45 @@
+#about {
+  width: 90%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-summary {
+  max-width: 30rem;
+}
+
+#about-summary #about-title {
+  color: #ff808b;
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#about-summary h1 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  color: #2d2e32;
+  margin: 0.8rem 0;
+}
+
+#about-summary p {
+  /* margin: 1.5rem 0; */
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #767676;
+  font-family: "Mulish", sans-serif;
+}
+
+#about-img {
+  border: 1px solid #ff808b;
+  padding: 9rem;
+  width: 20rem;
+  height: 15rem;
+  margin-left: 3rem;
+  border-radius: 5%;
+}
+
