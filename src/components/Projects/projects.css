@@ -176,6 +176,20 @@ div-img
 
 /* Media Query for Mobile Devices */
 
+@media (max-width: 550px) {
+  .projects-img {
+    display: none;
+  }
+
+  .projects-img2 {
+    display: block;
+    width: 14rem;
+    height: 15rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+  }
+}
+
 @media (max-width: 450px) {
   #projects-container {
     width: 100%;
@@ -211,7 +225,6 @@ div-img
 
   .projects-img {
     display: none;
-
   }
 
   .projects-img2 {
