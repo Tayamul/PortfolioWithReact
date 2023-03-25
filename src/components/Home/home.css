@@ -137,7 +137,7 @@
 
   .container {
     margin: 60px auto 0;
-    height: 120vh;
+    height: 80vh;
   }
 
   .profile {
@@ -200,7 +200,7 @@
 @media (max-width: 450px) {
   .container {
     margin: 40px auto 0;
-    height: 140vh;
+    height: 145vh;
   }
 
   #profile-pic {
