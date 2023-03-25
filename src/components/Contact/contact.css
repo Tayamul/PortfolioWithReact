@@ -1,0 +1,42 @@
+#contact {
+    width: 70%;
+    margin: 80px auto;
+}
+
+#contact > p {
+    color: #ff808b;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#contact > h1 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.7rem;
+    color: #2d2e32;
+    margin: 0.8rem 0;
+}
+
+.contact-container {
+    display: flex;
+    margin: 3.5rem 0;
+    gap: 7rem;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.contact-text h6 {
+    font-size: 1rem;
+    color: #2d2e32;
+}
+
+.contact-text p {
+    font-size: 1.1rem;
+    color: #767676;
+    font-family: 'Mulish', sans-serif;
+}
+
