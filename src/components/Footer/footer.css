@@ -23,3 +23,9 @@
     display: flex;
     gap: 0.7rem;
 }
+
+@media (max-width: 450px) {
+    #footer-content > p {
+        font-size: 0.65rem;
+    }
+}
