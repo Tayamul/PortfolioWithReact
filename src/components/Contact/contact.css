@@ -71,6 +71,8 @@
     }
 }
 
+/* Media Queries For Mobile Devices */
+
 @media (max-width: 450px) {
     .contact-container {
         flex-direction: column;
