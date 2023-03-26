@@ -18,7 +18,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <SiLinkedin size={30} color="#2d2e32" />
+            <SiLinkedin size={30} color="#2d2e32" className='contact-icons'/>
           </motion.a>
               <div className='contact-text'>
                 <a href='https://www.linkedin.com/in/tayamul-rai' target='_blank' rel="noreferrer">

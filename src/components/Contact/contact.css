@@ -5,7 +5,7 @@
 
 #contact > p {
     color: #ff808b;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1rem;
 }
 
@@ -40,3 +40,39 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/* Media Queries For Ipad/Tablets */
+
+@media (max-width: 990px) {
+
+    .contact-container {
+        gap: 3rem;
+    }
+
+    #contact > p {
+        font-size: 0.9rem;
+    }
+
+    #contact > h1 {
+        font-size: 1.4rem;
+    }
+
+
+    .contact-text h6 {
+        font-size: 0.9rem;
+        color: #2d2e32;
+    }
+
+    .contact-text p {
+        font-size: 0.9rem;
+    }
+    
+    .contact-icons {
+        font-size: 20rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
