@@ -126,7 +126,7 @@ div-img
 
 .projects-summary > p {
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: #767676;
   font-family: "Mulish", sans-serif;
@@ -136,7 +136,7 @@ div-img
 
 .projects-summary-alt > p {
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: #767676;
   font-family: "Mulish", sans-serif;
@@ -216,7 +216,7 @@ div-img
   }
 
   #projects-container > h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-left: 4rem;
   }
 
@@ -319,7 +319,6 @@ div-img
   }
 
   #projects-container > h1 {
-    font-size: 1.4rem;
     margin: 0.5rem 2rem;
   }
 
@@ -377,12 +376,12 @@ div-img
   }
 
   .projects-summary p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     max-width: 15rem;
   }
 
   .projects-summary-alt p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     max-width: 15rem;
   }
 

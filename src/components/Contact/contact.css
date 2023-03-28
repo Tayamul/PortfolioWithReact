@@ -5,14 +5,14 @@
 
 #contact > p {
     color: #ff808b;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
 }
 
 #contact > h1 {
     font-weight: 700;
     line-height: 1.2;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #2d2e32;
     margin: 0.8rem 0;
 }
@@ -50,10 +50,12 @@
 
     #contact > p {
         font-size: 0.9rem;
+        text-align: center;
     }
 
     #contact > h1 {
         font-size: 1.4rem;
+        text-align: center;
     }
 
 
