@@ -19,14 +19,14 @@
   font-size: 1.5rem;
   color: #2d2e32;
   margin: 0.8rem 0;
-  margin-left: 7.5rem;
+  margin-left: 1.8rem;
 }
 
 #projects-container > p {
   color: #ff808b;
   font-weight: 500;
   font-size: 1rem;
-  margin-left: 7.5rem;
+  margin-left: 1.8rem;
 }
 
 .projects-section {
@@ -212,12 +212,12 @@ div-img
   }
 
   #projects-container > p {
-    margin-left: 4rem;
+    text-align: center;
   }
 
   #projects-container > h1 {
     font-size: 1.4rem;
-    margin-left: 4rem;
+    text-align: center;
   }
 
   .projects-section {

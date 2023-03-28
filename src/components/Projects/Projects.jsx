@@ -21,7 +21,7 @@ const Projects = () => {
           <img src={newsWeb} alt='News web app screenshot' className="projects-img" />
           <img src={newsWeb2} alt='News web app screenshot' className="projects-img2" />
           <div className="projects-summary">
-            <h2>NEWS WEB</h2>
+            <h2>News Web</h2>
             <p>
               User interface that connects to the News API back-end project. Uses functional components and React hooks such as state, context and effect.{" "}
             </p>
