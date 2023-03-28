@@ -25,6 +25,13 @@
 }
 
 @media (max-width: 450px) {
+
+    #footer-content {
+        flex-direction: column;
+        justify-content: center;
+        gap:0.3rem;
+    }
+
     #footer-content > p {
         font-size: 0.65rem;
     }
