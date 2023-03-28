@@ -6,7 +6,7 @@ It is a single-page application that features a modern and sleek design. Each pa
 
 The site is responsive at every devices to enhance user experience and usability.
 
-[Live Demo](https://tayamul-portfolio.vercel.app)
+<!-- [Live Demo](https://tayamul-portfolio.vercel.app) -->
 
 ## Home
 Serves as an introduction to the site, featuring a striking header image and a navigation menu at the top of the page. 
