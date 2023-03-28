@@ -46,6 +46,7 @@
 
     .contact-container {
         gap: 3rem;
+        justify-content: center;
     }
 
     #contact > p {
@@ -56,6 +57,7 @@
     #contact > h1 {
         font-size: 1.4rem;
         text-align: center;
+        line-height: 1.7;
     }
 
 
