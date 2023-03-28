@@ -23,9 +23,7 @@ const Projects = () => {
           <div className="projects-summary">
             <h2>NEWS WEB</h2>
             <p>
-              A social discussion website enhancing user interaction with
-              features including article rating, commenting, and article
-              submission.{" "}
+              User interface that connects to the News API back-end project. Uses functional components and React hooks such as state, context and effect.{" "}
             </p>
             <div className="tech-skills">
               <p>React</p>
