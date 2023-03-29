@@ -3,10 +3,10 @@ import "./projects.css";
 import { SiGithub } from "react-icons/si";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { motion } from "framer-motion";
-import newsWeb from '../../assets/News-Web.png'
-import newsWeb2 from '../../assets/News-Web2.png'
-import todo from '../../assets/Todo-pic.png'
-import todo2 from '../../assets/Todo-pic2.png'
+import newsWeb from '../../assets/News-Web.webp'
+import newsWeb2 from '../../assets/News-Web2.webp'
+import todo from '../../assets/Todo-pic.webp'
+import todo2 from '../../assets/Todo-pic2.webp'
 
 const Projects = () => {
   return (

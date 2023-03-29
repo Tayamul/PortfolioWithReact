@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import mac from "../../assets/mac.png";
+import mac from "../../assets/mac.webp";
 
 const About = () => {
   return (
