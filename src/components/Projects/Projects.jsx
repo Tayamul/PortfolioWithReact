@@ -37,6 +37,7 @@ const Projects = () => {
                 rel="noreferrer"
                 whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
                 whileTap={{ scale: 0.9 }}
+                aria-label="Read more on how the News web is coded"
               >
                 Code
                 <SiGithub style={{ marginLeft: "5px" }} />
@@ -47,6 +48,7 @@ const Projects = () => {
                 href="https://tayanews.netlify.app"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Visit News web hosted on netlify"
               >
                 Live Demo
                 <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
@@ -75,6 +77,7 @@ const Projects = () => {
                 href="https://github.com/Tayamul/to-do-web-app"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Read more on how the task manager is coded"
                 whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -87,6 +90,7 @@ const Projects = () => {
                 href="https://to-do-app-382c5.web.app"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Visit Task Management Web Application hosted on Firebase"
               >
                 Live Demo
                 <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />

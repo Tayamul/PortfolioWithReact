@@ -32,6 +32,7 @@ const Home = () => {
                 href='https://linkedin.com/in/tayamul-rai'
                 target='_blank'
                 rel='noreferrer'
+                aria-label="Visit Tayamul's LinkedIn profile"
                 whileHover={{ scale: 1.2, transition: { duration: 0.3 } }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -41,6 +42,7 @@ const Home = () => {
               href='https://github.com/Tayamul'
               target='_blank'
               rel='noreferrer'
+              aria-label="Visit Tayamul's Github profile"
               whileHover={{ scale: 1.2, transition: { duration: 0.3 } }}
               whileTap={{ scale: 0.9 }}>
                 <SiGithub size="30" color='#2d2e32' />

@@ -17,6 +17,7 @@ const Contact = () => {
             href="https://linkedin.com/in/tayamul-rai"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit Tayamul's LinkedIn profile"
           >
             <SiLinkedin size={30} color="#2d2e32" className="contact-icons" />
           </motion.a>
@@ -25,6 +26,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/tayamul-rai"
               target="_blank"
               rel="noreferrer"
+              aria-label="Visit Tayamul's LinkedIn profile"
             >
               <h6>LinkedIn</h6>
               <p>linkedin.com/in/tayamul-rai</p>
@@ -38,6 +40,7 @@ const Contact = () => {
             href="mailto: rai_tayamul@hotmail.com"
             target="_blank"
             rel="noreferrer"
+            aria-label="Get in touch with Tayamul via email"
           >
             <HiOutlineMail size={35} color="#2d2e32" />
           </motion.a>
@@ -46,6 +49,7 @@ const Contact = () => {
               href="mailto: rai_tayamul@hotmail.com"
               target="_blank"
               rel="noreferrer"
+              aria-label="Get in touch with Tayamul via email"
             >
               <h6>Mail</h6>
               <p>rai_tayamul@hotmail.com</p>

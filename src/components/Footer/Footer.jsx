@@ -16,6 +16,7 @@ const Footer = () => {
             href="https://linkedin.com/in/tayamul-rai"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit Tayamul's LinkedIn profile"
           >
             <SiLinkedin size={20} color="#fff" />
           </motion.a>
@@ -25,6 +26,7 @@ const Footer = () => {
             href="https://github.com/Tayamul"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit Tayamul's Github profile"
           >
             <SiGithub size={20} color='#fff'/>
           </motion.a>
