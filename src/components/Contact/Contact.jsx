@@ -28,7 +28,7 @@ const Contact = () => {
               rel="noreferrer"
               aria-label="Visit Tayamul's LinkedIn profile"
             >
-              <h6>LinkedIn</h6>
+              <h3>LinkedIn</h3>
               <p>linkedin.com/in/tayamul-rai</p>
             </a>
           </div>
@@ -51,7 +51,7 @@ const Contact = () => {
               rel="noreferrer"
               aria-label="Get in touch with Tayamul via email"
             >
-              <h6>Mail</h6>
+              <h3>Mail</h3>
               <p>rai_tayamul@hotmail.com</p>
             </a>
           </div>
