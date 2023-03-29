@@ -22,7 +22,7 @@ const Home = () => {
         <div className="profile">
           <div id="profile-pic"></div>
           <div id="profile-summary">
-            <h1>Front-End React Developer</h1>
+            <h1>Front-End React Developer 👋🏻</h1>
             <p>
               Hi, I'm Tayamul Rai. A passionate Front-End React Developer based
               in London, UK 📍
