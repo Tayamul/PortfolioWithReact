@@ -9,6 +9,7 @@ import todo from '../../assets/Todo-pic.webp'
 import todo2 from '../../assets/Todo-pic2.webp'
 import GS from '../../assets/GS.webp'
 import GS2 from '../../assets/GS2.webp'
+import newsApi from '../../assets/News-API.webp'
 
 const Projects = () => {
   return (
@@ -23,7 +24,7 @@ const Projects = () => {
           <img src={GS} alt='News web app screenshot' className="projects-img" />
           <img src={GS2} alt='News web app screenshot' className="projects-img2" />
           <div className="projects-summary">
-            <h2>News Web</h2>
+            <h2>Golden Sip</h2>
             <p>
               User interface that connects to the News API back-end project. Uses functional components and React hooks such as state, context and effect.{" "}
             </p>
@@ -110,7 +111,7 @@ const Projects = () => {
           <img src={newsWeb} alt='News web app screenshot' className="projects-img" />
           <img src={newsWeb2} alt='News web app screenshot' className="projects-img2" />
           <div className="projects-summary">
-            <h2>News Web</h2>
+            <h2>Full Stack News Web</h2>
             <p>
               User interface that connects to the News API back-end project. Uses functional components and React hooks such as state, context and effect.{" "}
             </p>
@@ -144,6 +145,52 @@ const Projects = () => {
               </motion.a>
             </div>
           </div>
+        </div>
+
+
+          {/* News API*/}
+          <div className="projects-section-alt">
+          {/* <div className="projects-img"></div> */}
+          
+          <div className="projects-summary-alt">
+            <h2>News Web API</h2>
+            <p>
+              A social discussion website enhancing user interaction with
+              features including article rating, commenting, and article
+              submission.{" "}
+            </p>
+            <div className="tech-skills-alt">
+              <p>Node.js</p>
+              <p>Express</p>
+              <p>SQL</p>
+            </div>
+            <div className="live-code-alt">
+              <motion.a
+                href="https://github.com/Tayamul/Tayamul-news-api"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Read more on how the task manager is coded"
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+              >
+                Code
+                <SiGithub style={{ marginLeft: "5px" }} />
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+                href="https://news-api-h06n.onrender.com/api"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit Task Management Web Application hosted on Firebase"
+              >
+                Live Demo
+                <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
+              </motion.a>
+            </div>
+          </div>
+          <img src={newsApi} alt='Task management web app screenshot' className="projects-img-alt" />
+          <img src={newsApi} alt='Task management web app screenshot' className="projects-img2-alt" />
         </div>
       </div>
     </section>
