@@ -26,12 +26,11 @@ const Projects = () => {
           <div className="projects-summary">
             <h2>Golden Sip</h2>
             <p>
-              User interface that connects to the News API back-end project. Uses functional components and React hooks such as state, context and effect.{" "}
+              Designed and developed modern and sleek restaurant website for my first client, with the aim of improving their online presence.{" "}
             </p>
             <div className="tech-skills">
               <p>React</p>
               <p>CSS</p>
-              <p>MaterialUI</p>
             </div>
             <div className="live-code">
               <motion.a
@@ -40,7 +39,7 @@ const Projects = () => {
                 rel="noreferrer"
                 whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
                 whileTap={{ scale: 0.9 }}
-                aria-label="Read more on how the News web is coded"
+                aria-label="Get more insights on how Golden Sip was created collaboratively"
               >
                 Code
                 <SiGithub style={{ marginLeft: "5px" }} />
@@ -51,7 +50,7 @@ const Projects = () => {
                 href="https://golden-sip-89b0c.web.app"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Visit News web hosted on netlify"
+                aria-label="Visit Golden Sip website hosted on vercel"
               >
                 Live Demo
                 <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
@@ -148,16 +147,14 @@ const Projects = () => {
         </div>
 
 
-          {/* News API*/}
+          {/* News API */}
           <div className="projects-section-alt">
           {/* <div className="projects-img"></div> */}
           
           <div className="projects-summary-alt">
             <h2>News Web API</h2>
             <p>
-              A social discussion website enhancing user interaction with
-              features including article rating, commenting, and article
-              submission.{" "}
+              A RESTful API that provides 8 different endpoints to News Web database. Hosting tables such as users, articles, topics, and comments. It follows the MVC development framework.{" "}
             </p>
             <div className="tech-skills-alt">
               <p>Node.js</p>
@@ -169,7 +166,7 @@ const Projects = () => {
                 href="https://github.com/Tayamul/Tayamul-news-api"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Read more on how the task manager is coded"
+                aria-label="Read more on how the News API is coded"
                 whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -182,7 +179,7 @@ const Projects = () => {
                 href="https://news-api-h06n.onrender.com/api"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Visit Task Management Web Application hosted on Firebase"
+                aria-label="Visit the news web backend hosted on Render"
               >
                 Live Demo
                 <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
