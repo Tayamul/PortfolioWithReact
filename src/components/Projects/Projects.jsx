@@ -34,7 +34,7 @@ const Projects = () => {
             </div>
             <div className="live-code">
               <motion.a
-                href="https://github.com/Tayamul/News-Web"
+                href="https://github.com/Coder-Dai/Golden-Sip"
                 target="_blank"
                 rel="noreferrer"
                 whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
@@ -47,7 +47,7 @@ const Projects = () => {
               <motion.a
                 whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
                 whileTap={{ scale: 0.9 }}
-                href="https://tayanews.netlify.app"
+                href="https://golden-sip-89b0c.web.app"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Visit News web hosted on netlify"
