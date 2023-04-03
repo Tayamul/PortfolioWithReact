@@ -7,6 +7,8 @@ import newsWeb from '../../assets/News-Web.webp'
 import newsWeb2 from '../../assets/News-Web2.webp'
 import todo from '../../assets/Todo-pic.webp'
 import todo2 from '../../assets/Todo-pic2.webp'
+import GS from '../../assets/GS.webp'
+import GS2 from '../../assets/GS2.webp'
 
 const Projects = () => {
   return (
@@ -15,11 +17,11 @@ const Projects = () => {
         <p>PORTFOLIO</p>
         <h1>Each project has its own feature and functionality</h1>
 
-        {/* News Web */}
-        <div className="projects-section">
+          {/* Golden Sip */}
+          <div className="projects-section">
           {/* <div className="projects-img"></div> */}
-          <img src={newsWeb} alt='News web app screenshot' className="projects-img" />
-          <img src={newsWeb2} alt='News web app screenshot' className="projects-img2" />
+          <img src={GS} alt='News web app screenshot' className="projects-img" />
+          <img src={GS2} alt='News web app screenshot' className="projects-img2" />
           <div className="projects-summary">
             <h2>News Web</h2>
             <p>
@@ -56,8 +58,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* Task Manager */}
-        <div className="projects-section-alt">
+
+          {/* Task Manager */}
+          <div className="projects-section-alt">
           {/* <div className="projects-img"></div> */}
           
           <div className="projects-summary-alt">
@@ -99,6 +102,48 @@ const Projects = () => {
           </div>
           <img src={todo} alt='Task management web app screenshot' className="projects-img-alt" />
           <img src={todo2} alt='Task management web app screenshot' className="projects-img2-alt" />
+        </div>
+        
+        {/* News Web */}
+        <div className="projects-section">
+          {/* <div className="projects-img"></div> */}
+          <img src={newsWeb} alt='News web app screenshot' className="projects-img" />
+          <img src={newsWeb2} alt='News web app screenshot' className="projects-img2" />
+          <div className="projects-summary">
+            <h2>News Web</h2>
+            <p>
+              User interface that connects to the News API back-end project. Uses functional components and React hooks such as state, context and effect.{" "}
+            </p>
+            <div className="tech-skills">
+              <p>React</p>
+              <p>CSS</p>
+              <p>MaterialUI</p>
+            </div>
+            <div className="live-code">
+              <motion.a
+                href="https://github.com/Tayamul/News-Web"
+                target="_blank"
+                rel="noreferrer"
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+                aria-label="Read more on how the News web is coded"
+              >
+                Code
+                <SiGithub style={{ marginLeft: "5px" }} />
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+                href="https://tayanews.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit News web hosted on netlify"
+              >
+                Live Demo
+                <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
+              </motion.a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
