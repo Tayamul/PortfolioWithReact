@@ -50,7 +50,7 @@ const Projects = () => {
                 href="https://golden-sip-89b0c.web.app"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Visit Golden Sip website hosted on vercel"
+                aria-label="Visit Golden Sip website hosted on Firebase"
               >
                 Live Demo
                 <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
@@ -66,9 +66,7 @@ const Projects = () => {
           <div className="projects-summary-alt">
             <h2>Task Management Web-app</h2>
             <p>
-              A social discussion website enhancing user interaction with
-              features including article rating, commenting, and article
-              submission.{" "}
+              A simple to-do app with additional features including user authentication and global database storage; implemented CRUD operations.{" "}
             </p>
             <div className="tech-skills-alt">
               <p>React</p>
