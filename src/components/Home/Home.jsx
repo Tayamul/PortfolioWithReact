@@ -6,6 +6,7 @@ import css from "../../assets/css-3.svg";
 import js from "../../assets/javascript-1.svg";
 import node from "../../assets/nodejs-1.svg";
 import mui from "../../assets/material-ui-1.svg";
+import me from '../../assets/memoji.JPG'
 import "./home.css";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
@@ -20,7 +21,8 @@ const Home = () => {
       <div className="container">
         {/* <div className="content"> */}
         <div className="profile">
-          <div id="profile-pic"></div>
+          {/* <div id="profile-pic"></div> */}
+          <img id="profile-pic" src={me} alt='Memoji of Tayamul'/>
           <div id="profile-summary">
             <h1>Front-End React Developer 👋🏻</h1>
             <p>
