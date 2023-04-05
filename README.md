@@ -6,16 +6,16 @@ It is a single-page application that features a modern and sleek design. Each pa
 
 The site is responsive at every devices to enhance user experience and usability.
 
-<!-- [Live Demo](https://tayamul-portfolio.vercel.app) -->
+[Live Demo](https://tayamul-portfolio.vercel.app)
 
 ## Home
 Serves as an introduction to the site, featuring a striking header image and a navigation menu at the top of the page. 
 
-The navigation menu allows visitors to easily access different sections of the site.
+The 'sticky' navigation menu allows visitors to easily access different sections of the site.
 
-When viewed on tablets and mobile devices, the navigation menu transitions into a burger menu, enhacning user interface for better experience.
+When viewed on tablets and mobile devices, the navigation menu transitions into a burger menu, enhancing user interface for better experience.
 
-Includes a display of Tech Stacks that I am proficient with.
+Includes a display of Tech Stack that I am proficient with.
 
 ## About
 Provides a comprehensive overview of my background and experience as a front-end developer.
@@ -26,6 +26,8 @@ Lets the visitor know that I am #opentowork.
 Showcases some of my recent work, including websites and web applications built using various technologies.
 
 Explained in brief on what each project is about.
+
+Each includes link to its correspondence Github code and Live Hosted Demo.
 
 ## Contact
 Allows visitors to get in touch with me, through LinkedIn and Email.
