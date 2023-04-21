@@ -69,7 +69,7 @@
 #profile-pic {
   /* margin: 10rem 2.5rem; */
   /* padding: 11rem; */
-  width: 25rem; 
+  width: 25rem;
   height: auto;
   border: 1.5px solid #ff808b;
   border-radius: 50%;
@@ -94,7 +94,7 @@
   font-size: 1.2rem;
   line-height: 1.7;
   color: #767676;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 #socials {
@@ -120,7 +120,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color: #2d2e32;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 .logo {
@@ -132,14 +132,12 @@
   padding-left: 2.5rem;
 }
 
-
 /* Media Query for Ipad/Tablet */
 
 @media (max-width: 990px) {
-
   .container {
     margin: 60px auto 0;
-    height: 60rem;
+    height: 62rem;
   }
 
   .profile {
@@ -151,7 +149,6 @@
     width: 20rem;
   }
 
-
   #profile-summary {
     margin: 2rem auto;
     text-align: center;
@@ -159,12 +156,14 @@
 
   #profile-summary h1 {
     font-size: 3rem;
+    max-width: 350px;
+    margin: auto;
   }
 
   #profile-summary p {
     font-size: 1.1rem;
   }
-  
+
   #socials {
     justify-content: center;
   }
@@ -194,7 +193,6 @@
   .logo li {
     padding: 1rem;
   }
-  
 }
 
 /* Media Query for Mobile Devices */
@@ -202,7 +200,7 @@
 @media (max-width: 450px) {
   .container {
     margin: 40px auto 0;
-    height: 63rem;
+    height: 68rem;
   }
 
   #profile-pic {
@@ -216,5 +214,4 @@
   #profile-summary p {
     font-size: 1rem;
   }
-
 }

@@ -7,7 +7,7 @@ const About = () => {
     <section id="about">
       <div id="about-summary">
         <p id="about-title">ABOUT ME</p>
-        <h1>A dedicated Front-End Developer based in London, UK 📍</h1>
+        <h1>Software Developer based in London, UK 📍</h1>
         <p>
           I excel in designing and maintaining responsive websites that offer a
           smooth user experience.
@@ -15,7 +15,7 @@ const About = () => {
         <br />
         <p>
           My expertise lies in crafting dynamic, engaging interfaces through
-          writing clean and optimised code and utilising cutting-edge
+          writing clean and optimised code, and utilising cutting-edge
           development tools and techniques.{" "}
         </p>
         <br />

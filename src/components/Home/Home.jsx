@@ -24,11 +24,13 @@ const Home = () => {
           {/* <div id="profile-pic"></div> */}
           <img id="profile-pic" src={me} alt='Memoji of Tayamul'/>
           <div id="profile-summary">
-            <h1>Front-End React Developer 👋🏻</h1>
+            <h1>Hi 👋🏻 I'm Tayamul Rai </h1> 
             <p>
-              Hi, I'm Tayamul Rai. A passionate Front-End React Developer based
-              in London, UK 📍
+              As a Software Developer, my expertise lies in creating seamless and intuitive user experiences. I specialise in using cutting-edge technologies to produce high-quality web applications.
             </p>
+            {/* <p>
+               I've just completed an intensive coding bootcamp and I'm eager to jump-start my career in the tech industry as a Junior Developer! <br/>I'm ready to apply my newly acquired skills and collaborate with a team to develop cutting-edge software that will revolutionize the world.
+            </p> */}
             <div id="socials">
               <motion.a
                 href='https://linkedin.com/in/tayamul-rai'
