@@ -52,13 +52,13 @@ const Home = () => {
                 <SiGithub size="30" color='#2d2e32' />
               </motion.a>
             </div>
-            <div className="CTA">
-              <button>
+            <div className="cta">
+              <button className="cta-btn">
                 Download CV
               </button>
-              <button>
+              <a href='#contact'><button className="cta-btn2">
                 Stay in touch
-              </button>
+              </button></a>
             </div>
           </div>
         </div>
