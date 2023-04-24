@@ -108,7 +108,7 @@
 .tech-stack {
   /* border: 1px solid green; */
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin: 6.5rem auto;
   width: 60%;
