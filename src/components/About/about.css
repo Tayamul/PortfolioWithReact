@@ -71,6 +71,8 @@ div property
     #about-summary h1 {
         line-height: 1.3;
         font-size: 1.4rem;
+        max-width: 18rem;
+        margin: auto;
     }
 
     #about-summary #about-title {
