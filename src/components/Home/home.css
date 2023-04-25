@@ -111,27 +111,27 @@
 
 .cta-btn {
   width: max-content;
-  padding: 0.75rem 1.1rem;
-  font-size: 1.3rem;
+  padding: 0.75rem 0.9rem;
+  font-size: 1rem;
   background: transparent;
-  border: 1px solid #ff808b;
+  border: 1px solid #2d2e32;
   border-radius: 0.4rem;
-  color: #ff808b;
+  color: #2d2e32;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .cta-btn:hover {
-  background-color: #ff808b;
-  border-color: transparent;
-  color: #fff;
+  /* background-color: transaprent; */
+  border-color: #ff808b;
+  color: #ff808b;
 }
 
 
 .cta-btn2 {
   width: max-content;
-  padding: 0.75rem 1.1rem;
-  font-size: 1.3rem;
+  padding: 0.75rem 0.9rem;
+  font-size: 1rem;
   background-color: #ff808b;
   border: 1px solid #ff808b;
   border-radius: 0.4rem;
