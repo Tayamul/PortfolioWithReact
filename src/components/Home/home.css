@@ -104,7 +104,7 @@
 }
 
 .cta {
-  margin: 1rem auto;
+  margin: 1.2rem auto 0;
   display: flex;
   gap: 0.9rem;
 }
@@ -126,7 +126,6 @@
   border-color: #ff808b;
   color: #ff808b;
 }
-
 
 .cta-btn2 {
   width: max-content;
@@ -180,7 +179,7 @@
 @media (max-width: 990px) {
   .container {
     margin: 60px auto 0;
-    height: 62rem;
+    height: 66rem;
   }
 
   .profile {
@@ -247,7 +246,7 @@
 @media (max-width: 450px) {
   .container {
     margin: 40px auto 0;
-    height: 68rem;
+    height: 72rem;
   }
 
   #profile-pic {
