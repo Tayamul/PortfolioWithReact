@@ -112,7 +112,7 @@
 .cta-btn {
   width: max-content;
   padding: 0.75rem 0.9rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background: transparent;
   border: 1px solid #2d2e32;
   border-radius: 0.4rem;
@@ -130,7 +130,7 @@
 .cta-btn2 {
   width: max-content;
   padding: 0.75rem 0.9rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-color: #2d2e32;
   border: 1px solid #2d2e32;
   border-radius: 0.4rem;
@@ -214,6 +214,14 @@
     justify-content: center;
   }
 
+  .cta-btn {
+    font-size: 1.1rem;
+  }
+
+  .cta-btn2 {
+    font-size: 1.1rem;
+  }
+
   .tech-stack {
     flex-direction: column;
     justify-content: center;
@@ -258,6 +266,14 @@
   }
 
   #profile-summary p {
+    font-size: 1rem;
+  }
+
+  .cta-btn {
+    font-size: 1rem;
+  }
+
+  .cta-btn2 {
     font-size: 1rem;
   }
 }
