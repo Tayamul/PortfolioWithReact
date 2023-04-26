@@ -49,7 +49,7 @@
 .container {
   /* border: 1px solid black; */
   width: 90%;
-  height: 45rem;
+  height: 49rem;
   margin: 80px auto 0;
   padding-top: 90px;
 }
@@ -89,7 +89,7 @@
 }
 
 #profile-summary p {
-  margin: 1.5rem 0;
+  margin: 0.6rem 0;
   font-weight: 500;
   font-size: 1.2rem;
   line-height: 1.7;
@@ -101,6 +101,7 @@
   display: flex;
   gap: 0.8rem;
   cursor: pointer;
+  margin-top: 1.3rem;
 }
 
 .cta {
@@ -179,7 +180,7 @@
 @media (max-width: 990px) {
   .container {
     margin: 60px auto 0;
-    height: 66rem;
+    height: 70rem;
   }
 
   .profile {
@@ -254,7 +255,7 @@
 @media (max-width: 450px) {
   .container {
     margin: 40px auto 0;
-    height: 72rem;
+    height: 74rem;
   }
 
   #profile-pic {
