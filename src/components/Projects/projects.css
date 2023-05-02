@@ -1,11 +1,8 @@
 #projects {
   width: 100%;
   background-color: #f5f5f5;
-  /* margin: 110px auto; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: flex-start; */
 }
 
 #projects-container {
@@ -29,7 +26,7 @@
   margin-left: 3rem;
 }
 
-.projects-section {
+.projects-section, .projects-section-alt {
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -39,62 +36,17 @@
   margin: 3.5rem auto;
   width: 90%;
   height: 20rem;
-  /* padding: 2rem; */
   border-radius: 1.7rem;
 }
 
-.projects-section-alt {
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 3.5rem auto;
-  width: 90%;
-  height: 20rem;
-  /* padding: 2rem; */
-  border-radius: 1.7rem;
-}
-
-/*
-div-img
-.projects-img {
-  padding: 8rem;
-  width: 30rem;
-  border-radius: 1.7rem;
-  border: 1px solid #ff808b;
-}
-
-*/
-.projects-img {
-  /* padding: 8rem; */
+.projects-img, .projects-img-alt {
   width: 33rem;
-  /* max-width: 60%; */
   height: auto;
-  /* height: 100%; */
-  /* height: 16rem; */
   border-radius: 0.5rem;
-  /* border: 1px solid #ff808b; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.projects-img-alt {
-  /* padding: 8rem; */
-  max-width: 33rem;
-  height: auto;
-  /* height: 100%; */
-  /* height: 16rem; */
-  border-radius: 0.5rem;
-  /* border: 1px solid #ff808b; */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.projects-img2 {
-  display: none;
-}
-
-.projects-img2-alt {
+.projects-img2, .projects-img2-alt {
   display: none;
 }
 
@@ -114,20 +66,13 @@ div-img
   align-items: center;
 }
 
-.projects-summary > h2 {
+.projects-summary > h2, .projects-summary-alt > h2 {
   font-weight: 700;
   font-size: 1.1rem;
   color: #2d2e32;
 }
 
-.projects-summary-alt > h2 {
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: #2d2e32;
-}
-
-
-.projects-summary > p {
+.projects-summary > p, .projects-summary-alt > p {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.6;
@@ -137,67 +82,28 @@ div-img
   text-align: center;
 }
 
-.projects-summary-alt > p {
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #767676;
-  font-family: "Mulish", sans-serif;
-  margin: 1.2rem 0 1rem;
-  text-align: center;
-}
-
-.tech-skills {
+.tech-skills, .tech-skills-alt {
   display: flex;
   justify-content: center;
-  /* gap: 3; */
   margin-bottom: 1rem;
 }
 
-.tech-skills-alt {
-  display: flex;
-  justify-content: center;
-  /* gap: 3; */
-  margin-bottom: 1rem;
-}
-
-.tech-skills > p {
+.tech-skills > p, .tech-skills-alt > p {
   margin: 1.2rem;
   padding: 0.7rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.tech-skills-alt > p {
-  margin: 1.2rem;
-  padding: 0.7rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.live-code {
+.live-code, .live-code-alt {
   display: flex;
   gap: 25px;
 }
 
-.live-code-alt {
-  display: flex;
-  gap: 25px;
-}
-
-
-.live-code a {
+.live-code a, .live-code-alt a {
   color: #2d2e32;
   font-size: 1.1rem;
   font-weight: 500;
   text-decoration: none;
-  /* margin-right: 1rem; */
-}
-
-.live-code-alt a {
-  color: #2d2e32;
-  font-size: 1.1rem;
-  font-weight: 500;
-  text-decoration: none;
-  /* margin-right: 1rem; */
 }
 
 /* Media Query for Ipad/Tablets */
@@ -235,56 +141,24 @@ div-img
     border-radius: 1.3rem;
   }
 
-
-  /*
-  div img
-  .projects-img {
-    border-radius: 1.1rem;
-  }
-*/
-
-  .projects-img {
+  .projects-img, .projects-img-alt {
     max-width: 95%;
     height: auto;
-    /* height: 18rem; */
   }
 
-  .projects-img-alt {
-    max-width: 95%;
-    height: auto;
-    /* height: 18rem; */
-  }
-
-
-  .projects-summary {
+  .projects-summary, .projects-summary-alt {
     margin: 1.5rem 0 0;
   }
 
-  .projects-summary-alt {
-    margin: 1.5rem 0 0;
-  }
-
-  .projects-summary > p {
+  .projects-summary > p, .projects-summary-alt > p {
     font-size: 0.95rem;
   }
 
-  .projects-summary-alt > p {
-    font-size: 0.95rem;
-  }
-
-  .projects-summary h2 {
+  .projects-summary h2, .projects-summary-alt h2 {
     font-size: 1rem;
   }
 
-  .projects-summary-alt h2 {
-    font-size: 1rem;
-  }
-
-  .live-code a {
-    font-size: 1rem;
-  }
-
-  .live-code-alt a {
+  .live-code a, .live-code-alt a  {
     font-size: 1rem;
   }
 }
@@ -292,26 +166,13 @@ div-img
 /* Media Query for Mobile Devices */
 
 @media (max-width: 550px) {
-  .projects-img {
+  .projects-img, .projects-img-alt {
     display: none;
   }
 
-  .projects-img-alt {
-    display: none;
-  }
-
-  .projects-img2 {
+  .projects-img2, .projects-img2-alt {
     display: inline;
     width: 100%;
-    /* height: 15rem; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 0.2rem;
-  }
-
-  .projects-img2-alt {
-    display: inline;
-    width: 100%;
-    /* height: 15rem; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 0.2rem;
   }
@@ -344,71 +205,29 @@ div-img
     justify-content: flex-end;
   }
 
-  /*
-  div img
-  .projects-img {
-    padding: 5rem;
-    width: 100%;
-    height: 20rem;
-    border-radius: 1.7rem;
-    border: 1px solid #ff808b;
-    border-radius: 1rem;
-  }
-*/
-
-  .projects-img {
+  .projects-img, .projects-img-alt {
     display: none;
   }
 
-  .projects-img-alt {
-    display: none;
-  }
-
-  .projects-img2 {
+  .projects-img2, .projects-img2-alt {
     display: block;
-    /* width: 30rem; */
-    /* height: 15rem; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 0.2rem;
   }
 
-  .projects-img2-alt {
-    display: block;
-    /* width: 30rem; */
-    /* height: 15rem; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 0.2rem;
-  }
-
-  .projects-summary p {
+  .projects-summary p, .projects-summary-alt p {
     font-size: 0.9rem;
     line-height: 1.7;
     max-width: 18rem;
   }
 
-  .projects-summary-alt p {
-    font-size: 0.9rem;
-    line-height: 1.7;
-    max-width: 18rem;
-  }
-
-  .tech-skills > p {
+  .tech-skills > p, .tech-skills-alt > p {
     margin: 0.9rem;
     padding: 0.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  .tech-skills-alt > p {
-    margin: 0.9rem;
-    padding: 0.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .live-code a {
-    font-size: 0.9rem;
-  }
-
-  .live-code-alt a {
+  .live-code a, .live-code-alt a {
     font-size: 0.9rem;
   }
 }
