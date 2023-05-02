@@ -12,9 +12,6 @@ import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { motion } from "framer-motion";
 
-// background-color 8e8e8e
-// h1 '#2d2e32'
-// p "#767676"
 const Home = () => {
   return (
     <main id="home">
