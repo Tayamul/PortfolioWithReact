@@ -53,7 +53,7 @@ const Projects = () => {
                 aria-label="Visit Golden Sip website hosted on Firebase"
               >
                 Live Demo
-                <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
+                <BsBoxArrowUpRight style={{ marginLeft: "5px" }} />
               </motion.a>
             </div>
           </div>
@@ -94,7 +94,7 @@ const Projects = () => {
                 aria-label="Visit Task Management Web Application hosted on Firebase"
               >
                 Live Demo
-                <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
+                <BsBoxArrowUpRight style={{ marginLeft: "5px" }} />
               </motion.a>
             </div>
           </div>
@@ -138,7 +138,7 @@ const Projects = () => {
                 aria-label="Visit News web hosted on netlify"
               >
                 Live Demo
-                <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
+                <BsBoxArrowUpRight style={{ marginLeft: "5px" }} />
               </motion.a>
             </div>
           </div>
@@ -180,7 +180,7 @@ const Projects = () => {
                 aria-label="Visit the news web backend hosted on Render"
               >
                 Live Demo
-                <BsArrowUpRightCircle style={{ marginLeft: "5px" }} />
+                <BsBoxArrowUpRight style={{ marginLeft: "5px" }} />
               </motion.a>
             </div>
           </div>
