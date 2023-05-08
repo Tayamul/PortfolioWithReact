@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import { SiGithub } from "react-icons/si";
-import { BsArrowUpRightCircle } from "react-icons/bs";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import newsWeb from '../../assets/News-Web.webp'
 import newsWeb2 from '../../assets/News-Web2.webp'
