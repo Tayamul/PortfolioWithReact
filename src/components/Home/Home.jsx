@@ -19,27 +19,11 @@ const Home = () => {
         <div className="profile">
           <img id="profile-pic" src={me} alt="Memoji of Tayamul" />
           <div id="profile-summary">
-            <h1>Hi 👋🏻 I'm Tayamul Rai </h1>
-            {/* <p>
-              As a Software Developer, my expertise lies in creating seamless and intuitive user experiences. I specialise in using cutting-edge technologies to produce high-quality web applications.
-            </p> */}
+            <h1>Full Stack Developer 👋🏻</h1>
             <p>
-              A recent coding bootcamp graduate eager to jump-start my career in
+              Hi, I'm Tayamul Rai. A highly-motivated coding bootcamp graduate eager to jump-start my career in
               the tech industry.{" "}
             </p>
-            {/* <br />{" "} */}
-            <p>
-              My love for technology drives me to stay current with emerging
-              trends.{" "}
-            </p>
-            {/* <br /> */}
-            <p>
-              Currently, I am learning Next.js with the intention of expanding
-              my technology stack.
-            </p>
-            {/* I'm ready to apply my newly acquired skills and collaborate with a team to develop cutting-edge software that will revolutionize the world. 
-            My love for programming grew when I stumbled upon a Wed Dev course at UDEMY.
-             I instantly fell in love with programming when my friend introduced me to it about a year ago.*/}
             <div id="socials">
               <motion.a
                 href="https://linkedin.com/in/tayamul-rai"
@@ -110,3 +94,23 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+            {/* <br />{" "} */}
+            {/* <p>
+              My love for technology drives me to stay current with emerging
+              trends.{" "}
+            </p> */}
+            {/* <br /> */}
+            {/* <p>
+              Currently, I am learning Next.js with the intention of expanding
+              my technology stack.
+            </p> */}
+            {/* I'm ready to apply my newly acquired skills and collaborate with a team to develop cutting-edge software that will revolutionize the world. 
+            My love for programming grew when I stumbled upon a Wed Dev course at UDEMY.
+             I instantly fell in love with programming when my friend introduced me to it about a year ago.*/}
+
+                         {/* <p>
+              As a Software Developer, my expertise lies in creating seamless and intuitive user experiences. I specialise in using cutting-edge technologies to produce high-quality web applications.
+            Hi 👋🏻 I'm Tayamul Rai</p> */}
