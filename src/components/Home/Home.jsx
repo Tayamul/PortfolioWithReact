@@ -94,23 +94,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-
-            {/* <br />{" "} */}
-            {/* <p>
-              My love for technology drives me to stay current with emerging
-              trends.{" "}
-            </p> */}
-            {/* <br /> */}
-            {/* <p>
-              Currently, I am learning Next.js with the intention of expanding
-              my technology stack.
-            </p> */}
-            {/* I'm ready to apply my newly acquired skills and collaborate with a team to develop cutting-edge software that will revolutionize the world. 
-            My love for programming grew when I stumbled upon a Wed Dev course at UDEMY.
-             I instantly fell in love with programming when my friend introduced me to it about a year ago.*/}
-
-                         {/* <p>
-              As a Software Developer, my expertise lies in creating seamless and intuitive user experiences. I specialise in using cutting-edge technologies to produce high-quality web applications.
-            Hi 👋🏻 I'm Tayamul Rai</p> */}
