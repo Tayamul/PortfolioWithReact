@@ -16,9 +16,7 @@ const Home = () => {
   return (
     <main id="home">
       <div className="container">
-        {/* <div className="content"> */}
         <div className="profile">
-          {/* <div id="profile-pic"></div> */}
           <img id="profile-pic" src={me} alt="Memoji of Tayamul" />
           <div id="profile-summary">
             <h1>Hi 👋🏻 I'm Tayamul Rai </h1>
@@ -106,7 +104,6 @@ const Home = () => {
             </ul>
           </div>
         </div>
-        {/* </div> */}
       </div>
     </main>
   );
