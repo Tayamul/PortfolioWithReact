@@ -3,13 +3,13 @@ import "./projects.css";
 import { SiGithub } from "react-icons/si";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
-import newsWeb from '../../assets/News-Web.webp'
-import newsWeb2 from '../../assets/News-Web2.webp'
-import todo from '../../assets/Todo-pic.webp'
-import todo2 from '../../assets/Todo-pic2.webp'
-import GS from '../../assets/GS.webp'
-import GS2 from '../../assets/GS2.webp'
-import newsApi from '../../assets/News-API.webp'
+import newsWeb from "../../assets/News-Web.webp";
+import newsWeb2 from "../../assets/News-Web2.webp";
+import todo from "../../assets/Todo-pic.webp";
+import todo2 from "../../assets/Todo-pic2.webp";
+import GS from "../../assets/GS.webp";
+import GS2 from "../../assets/GS2.webp";
+import newsApi from "../../assets/News-API.webp";
 
 const Projects = () => {
   return (
@@ -18,15 +18,36 @@ const Projects = () => {
         <p>PORTFOLIO</p>
         <h1>Each project has its own feature and functionality</h1>
 
-          {/* Golden Sip */}
-          <div className="projects-section">
+        {/* Golden Sip */}
+        <div className="projects-section">
           {/* <div className="projects-img"></div> */}
-          <img src={GS} alt='News web app screenshot' className="projects-img" />
-          <img src={GS2} alt='News web app screenshot' className="projects-img2" />
+          <a
+            href="https://golden-sip-89b0c.web.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={GS}
+              alt="News web app screenshot"
+              className="projects-img"
+            />
+          </a>
+          <a
+            href="https://golden-sip-89b0c.web.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={GS2}
+              alt="News web app screenshot"
+              className="projects-img2"
+            />
+          </a>
           <div className="projects-summary">
             <h2>Golden Sip</h2>
             <p>
-              Designed and developed modern and sleek restaurant website for my first client, with the aim of improving their online presence.{" "}
+              Designed and developed modern and sleek restaurant website for my
+              first client, with the aim of improving their online presence.{" "}
             </p>
             <div className="tech-skills">
               <p>React</p>
@@ -59,14 +80,16 @@ const Projects = () => {
           </div>
         </div>
 
-          {/* Task Manager */}
-          <div className="projects-section-alt">
+        {/* Task Manager */}
+        <div className="projects-section-alt">
           {/* <div className="projects-img"></div> */}
-          
+
           <div className="projects-summary-alt">
             <h2>Task Management Web-app</h2>
             <p>
-              A simple to-do app with additional features including user authentication and global database storage; implemented CRUD operations.{" "}
+              A simple to-do app with additional features including user
+              authentication and global database storage; implemented CRUD
+              operations.{" "}
             </p>
             <div className="tech-skills-alt">
               <p>React</p>
@@ -98,19 +121,37 @@ const Projects = () => {
               </motion.a>
             </div>
           </div>
-          <img src={todo} alt='Task management web app screenshot' className="projects-img-alt" />
-          <img src={todo2} alt='Task management web app screenshot' className="projects-img2-alt" />
+          <img
+            src={todo}
+            alt="Task management web app screenshot"
+            className="projects-img-alt"
+          />
+          <img
+            src={todo2}
+            alt="Task management web app screenshot"
+            className="projects-img2-alt"
+          />
         </div>
-        
+
         {/* News Web */}
         <div className="projects-section">
           {/* <div className="projects-img"></div> */}
-          <img src={newsWeb} alt='News web app screenshot' className="projects-img" />
-          <img src={newsWeb2} alt='News web app screenshot' className="projects-img2" />
+          <img
+            src={newsWeb}
+            alt="News web app screenshot"
+            className="projects-img"
+          />
+          <img
+            src={newsWeb2}
+            alt="News web app screenshot"
+            className="projects-img2"
+          />
           <div className="projects-summary">
             <h2>Full Stack News Web</h2>
             <p>
-              User interface that connects to the News API back-end project. Uses functional components and React hooks such as state, context and effect.{" "}
+              User interface that connects to the News API back-end project.
+              Uses functional components and React hooks such as state, context
+              and effect.{" "}
             </p>
             <div className="tech-skills">
               <p>React</p>
@@ -144,15 +185,16 @@ const Projects = () => {
           </div>
         </div>
 
-
-          {/* News API */}
-          <div className="projects-section-alt">
+        {/* News API */}
+        <div className="projects-section-alt">
           {/* <div className="projects-img"></div> */}
-          
+
           <div className="projects-summary-alt">
             <h2>News Web API</h2>
             <p>
-              A RESTful API that provides 8 different endpoints to News Web database. Hosting tables such as users, articles, topics, and comments. It follows the MVC development framework.{" "}
+              A RESTful API that provides 8 different endpoints to News Web
+              database. Hosting tables such as users, articles, topics, and
+              comments. It follows the MVC development framework.{" "}
             </p>
             <div className="tech-skills-alt">
               <p>Node.js</p>
@@ -184,8 +226,16 @@ const Projects = () => {
               </motion.a>
             </div>
           </div>
-          <img src={newsApi} alt='Task management web app screenshot' className="projects-img-alt" />
-          <img src={newsApi} alt='Task management web app screenshot' className="projects-img2-alt" />
+          <img
+            src={newsApi}
+            alt="Task management web app screenshot"
+            className="projects-img-alt"
+          />
+          <img
+            src={newsApi}
+            alt="Task management web app screenshot"
+            className="projects-img2-alt"
+          />
         </div>
       </div>
     </section>
