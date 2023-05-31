@@ -25,6 +25,7 @@ const Projects = () => {
             href="https://golden-sip-89b0c.web.app"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit Golden Sip website hosted on Firebase"
           >
             <img
               src={GS}
@@ -36,6 +37,7 @@ const Projects = () => {
             href="https://golden-sip-89b0c.web.app"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit Golden Sip website hosted on Firebase"
           >
             <img
               src={GS2}
@@ -121,16 +123,30 @@ const Projects = () => {
               </motion.a>
             </div>
           </div>
-          <img
-            src={todo}
-            alt="Task management web app screenshot"
-            className="projects-img-alt"
-          />
-          <img
-            src={todo2}
-            alt="Task management web app screenshot"
-            className="projects-img2-alt"
-          />
+          <a
+            href="https://to-do-app-382c5.web.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Task Management Web Application hosted on Firebase"
+          >
+            <img
+              src={todo}
+              alt="Task management web app screenshot"
+              className="projects-img-alt"
+            />
+          </a>
+          <a
+            href="https://to-do-app-382c5.web.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Task Management Web Application hosted on Firebase"
+          >
+            <img
+              src={todo2}
+              alt="Task management web app screenshot"
+              className="projects-img2-alt"
+            />
+          </a>
         </div>
 
         {/* News Web */}
