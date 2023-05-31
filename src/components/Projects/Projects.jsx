@@ -152,16 +152,30 @@ const Projects = () => {
         {/* News Web */}
         <div className="projects-section">
           {/* <div className="projects-img"></div> */}
-          <img
-            src={newsWeb}
-            alt="News web app screenshot"
-            className="projects-img"
-          />
-          <img
-            src={newsWeb2}
-            alt="News web app screenshot"
-            className="projects-img2"
-          />
+          <a
+            href="https://tayanews.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit News web hosted on netlify"
+          >
+            <img
+              src={newsWeb}
+              alt="News web app screenshot"
+              className="projects-img"
+            />
+          </a>
+          <a
+            href="https://tayanews.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit News web hosted on netlify"
+          >
+            <img
+              src={newsWeb2}
+              alt="News web app screenshot"
+              className="projects-img2"
+            />
+          </a>
           <div className="projects-summary">
             <h2>Full Stack News Web</h2>
             <p>
