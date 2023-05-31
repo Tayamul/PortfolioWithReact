@@ -256,16 +256,30 @@ const Projects = () => {
               </motion.a>
             </div>
           </div>
-          <img
-            src={newsApi}
-            alt="Task management web app screenshot"
-            className="projects-img-alt"
-          />
-          <img
-            src={newsApi}
-            alt="Task management web app screenshot"
-            className="projects-img2-alt"
-          />
+          <a
+            href="https://news-api-h06n.onrender.com/api"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit the news web backend hosted on Render"
+          >
+            <img
+              src={newsApi}
+              alt="Task management web app screenshot"
+              className="projects-img-alt"
+            />
+          </a>
+          <a
+            href="https://news-api-h06n.onrender.com/api"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit the news web backend hosted on Render"
+          >
+            <img
+              src={newsApi}
+              alt="Task management web app screenshot"
+              className="projects-img2-alt"
+            />
+          </a>
         </div>
       </div>
     </section>
