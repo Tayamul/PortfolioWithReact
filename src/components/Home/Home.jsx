@@ -21,7 +21,7 @@ const Home = () => {
           <div id="profile-summary">
             <h1>Full Stack Developer 👋🏻</h1>
             <p>
-              Hi, I'm Tayamul Rai. A highly-motivated coding bootcamp graduate eager to jump-start my career in
+              Hi, I'm Tayamul Rai. A bootcamp graduate eager to jump-start my career in
               the tech industry.{" "}
             </p>
             <div id="socials">
