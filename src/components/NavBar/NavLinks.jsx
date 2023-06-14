@@ -17,7 +17,7 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
       <motion.li
         initial={animateFrom}
         animate={animateTo}
-        transition={{ delay: 0.10 }}
+        transition={{ delay: 0.1 }}
         onClick={() => isMobile && closeMobileMenu()}
       >
         <a href="#about">About</a>
@@ -25,7 +25,7 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
       <motion.li
         initial={animateFrom}
         animate={animateTo}
-        transition={{ delay: 0.20 }}
+        transition={{ delay: 0.2 }}
         onClick={() => isMobile && closeMobileMenu()}
       >
         <a href="#projects">Projects</a>
@@ -33,7 +33,7 @@ const NavLinks = ({ isMobile, closeMobileMenu }) => {
       <motion.li
         initial={animateFrom}
         animate={animateTo}
-        transition={{ delay: 0.30 }}
+        transition={{ delay: 0.3 }}
         onClick={() => isMobile && closeMobileMenu()}
       >
         <a href="#contact">Contact</a>

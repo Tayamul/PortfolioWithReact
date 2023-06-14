@@ -12,7 +12,7 @@ const MobileNavigation = () => {
       size="25px"
       color="#151513"
       onClick={() => setOpen(!open)}
-    />  
+    />
   );
   const closeIcon = (
     <CgClose
@@ -20,15 +20,17 @@ const MobileNavigation = () => {
       size="25px"
       color="#151513"
       onClick={() => setOpen(!open)}
-    /> 
+    />
   );
 
-  const closeMobileMenu = () => setOpen(false)
+  const closeMobileMenu = () => setOpen(false);
 
-  return <nav className={classes.MobileNavigation}>
-    {open ? closeIcon : hamburgerIcon}
-    {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}
-    </nav>;
+  return (
+    <nav className={classes.MobileNavigation}>
+      {open ? closeIcon : hamburgerIcon}
+      {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
+    </nav>
+  );
 };
 
 export default MobileNavigation;
