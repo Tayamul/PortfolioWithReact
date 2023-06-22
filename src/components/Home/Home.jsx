@@ -17,7 +17,7 @@ const Home = () => {
     <main id="home">
       <div className="container">
         <div className="profile">
-          <img id="profile-pic" src={me} alt="Memoji of Tayamul" />
+          <img id="profile-pic" src={me} alt="Personal photo of Tayamul" />
           <div id="profile-summary">
             <h1>Full Stack Developer 👋🏻</h1>
             <p>
