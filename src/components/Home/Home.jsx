@@ -6,7 +6,7 @@ import css from "../../assets/css-3.svg";
 import js from "../../assets/javascript-1.svg";
 import node from "../../assets/nodejs-1.svg";
 import mui from "../../assets/material-ui-1.svg";
-import me from "../../assets/memoji.JPG";
+import me from "../../assets/profile-pic.webp";
 import "./home.css";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
