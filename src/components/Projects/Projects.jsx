@@ -10,6 +10,8 @@ import todo2 from "../../assets/Todo-pic2.webp";
 import GS from "../../assets/GS.webp";
 import GS2 from "../../assets/GS2.webp";
 import newsApi from "../../assets/News-API.webp";
+import netflix1 from "../../assets/netflix1.webp";
+import netflix2 from "../../assets/netflix2.png";
 
 const Projects = () => {
   return (
@@ -17,6 +19,71 @@ const Projects = () => {
       <div id="projects-container">
         <p>PORTFOLIO</p>
         <h1>Each project has its own feature and functionality</h1>
+
+        {/* Netflix Clone */}
+        <div className="projects-section-alt">
+          {/* <div className="projects-img"></div> */}
+
+          <div className="projects-summary-alt">
+            <h2>Netflix Clone</h2>
+            <p>
+            Developed front-end replica of Netflix's user interface and experience with a hint of user authentication functionality.{" "}
+            </p>
+            <div className="tech-skills-alt">
+              <p>React</p>
+              <p>Tailwind CSS</p>
+              <p>Firebase</p>
+            </div>
+            <div className="live-code-alt">
+              <motion.a
+                href="https://github.com/Tayamul/Netflix-Clone"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Read more on how the netflix clone is coded"
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+              >
+                Code
+                <SiGithub style={{ marginLeft: "5px" }} />
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+                href="https://netflix-clone-188fe.web.app"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit Netflix Clone hosted on Firebase"
+              >
+                Live Demo
+                <BsBoxArrowUpRight style={{ marginLeft: "5px" }} />
+              </motion.a>
+            </div>
+          </div>
+          <a
+            href="https://netflix-clone-188fe.web.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Netflix Clone hosted on Firebase"
+          >
+            <img
+              src={netflix1}
+              alt="Netflix Clone screenshot"
+              className="projects-img-alt"
+            />
+          </a>
+          <a
+            href="https://netflix-clone-188fe.web.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Netflix Clone hosted on Firebase"
+          >
+            <img
+              src={netflix2}
+              alt="Netflix Clone screenshot"
+              className="projects-img2-alt"
+            />
+          </a>
+        </div>
 
         {/* Golden Sip */}
         <div className="projects-section">
