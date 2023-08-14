@@ -11,7 +11,7 @@ import GS from "../../assets/GS.webp";
 import GS2 from "../../assets/GS2.webp";
 import newsApi from "../../assets/News-API.webp";
 import netflix1 from "../../assets/netflix1.webp";
-import netflix2 from "../../assets/netflix2.png";
+import netflix2 from "../../assets/netflix2.webp";
 
 const Projects = () => {
   return (
