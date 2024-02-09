@@ -1,0 +1,94 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding-top: 20px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 30s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 70px;
+  margin: 0 40px;
+}
+
+#nextjs {
+  width: 90px;
+  height: 90px;
+  padding-top: 10px;
+}
+
+#tailwind {
+  width: 65px;
+  height: 65px;
+  padding-bottom: 10px;
+}
+
+#figma {
+  width: 110px;
+  height: 110px;
+  padding-top: 30px;
+}
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 450px) {
+  .logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+  #nextjs {
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+  }
+
+  #tailwind {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+
+  #figma {
+    width: 90px;
+    height: 90px;
+    padding-top: 40px;
+  }
+}
