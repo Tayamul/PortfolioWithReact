@@ -9,17 +9,25 @@ const About = () => {
         <p id="about-title">ABOUT ME</p>
         <h1>Full Stack Developer based in London, UK 📍</h1>
         <p>
-          I excel in designing and maintaining responsive websites that offer a
-          smooth user experience.
+          An individual with a passion for leveraging software solutions to
+          create positive impact in people's lives.
         </p>
         <p>
-          My expertise lies in crafting dynamic, engaging interfaces through
-          writing clean and optimised code, and utilising cutting-edge
-          development tools and techniques.{" "}
+          In 2022, I transitioned from retail customer service to tech by
+          undertaking a coding bootcamp.
         </p>
         <p>
-          I am also a team player who thrives in collaborating with
-          cross-functional teams to produce outstanding web applications.
+          Currently, I am a Software Developer Intern focused on creating a SaaS
+          platform by engaging and collaborating with a cross-functional team.
+        </p>
+        <p>
+          I research the latest front-end technologies in my free time to
+          improve my knowledge in building intuitive user interfaces that
+          enhance user experience.
+        </p>
+        <p>
+          I aspire to be a highly skilled software developer through continuous
+          learning and growth.
         </p>
       </div>
       <img src={mac} alt="macbook" id="about-img" />

@@ -1,11 +1,4 @@
 import React from "react";
-import react from "../../assets/react-2.svg";
-import firebase from "../../assets/firebase-1.svg";
-import html from "../../assets/html-1.svg";
-import css from "../../assets/css-3.svg";
-import js from "../../assets/javascript-1.svg";
-import node from "../../assets/nodejs-1.svg";
-import mui from "../../assets/material-ui-1.svg";
 import me from "../../assets/profile-pic.webp";
 import "./home.css";
 import { SiLinkedin } from "react-icons/si";
@@ -21,8 +14,9 @@ const Home = () => {
           <div id="profile-summary">
             <h1>Full Stack Developer 👋🏻</h1>
             <p>
-              Hi, I'm Tayamul Rai. A bootcamp graduate eager to jump-start my career in
-              the tech industry.{" "}
+              Hi, I'm Tayamul Rai. A Software Developer Intern with 6+ months
+              experience at a SaaS startup, proficient in TypeScript and
+              Next.js.{" "}
             </p>
             <div id="socials">
               <motion.a
@@ -58,34 +52,6 @@ const Home = () => {
                 <button className="cta-btn2">Stay in touch</button>
               </a>
             </div>
-          </div>
-        </div>
-        <div className="tech-stack">
-          <p>Tech Stack </p>
-          <div>
-            <ul className="logo">
-              <li>
-                <img src={js} alt="javascript logo" className="logo-img" />
-              </li>
-              <li>
-                <img src={html} alt="html logo" className="logo-img" />
-              </li>
-              <li>
-                <img src={css} alt="css logo" className="logo-img" />
-              </li>
-              <li>
-                <img src={react} alt="react logo" className="logo-img" />
-              </li>
-              <li>
-                <img src={node} alt="node.js logo" className="logo-img" />
-              </li>
-              <li>
-                <img src={firebase} alt="firebase logo" className="logo-img" />
-              </li>
-              <li>
-                <img src={mui} alt="material ui logo" className="logo-img" />
-              </li>
-            </ul>
           </div>
         </div>
       </div>

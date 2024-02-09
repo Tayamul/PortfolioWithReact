@@ -27,7 +27,8 @@ const Projects = () => {
           <div className="projects-summary-alt">
             <h2>Netflix Clone</h2>
             <p>
-            Developed front-end replica of Netflix's user interface and experience with a hint of user authentication functionality.{" "}
+              Developed front-end replica of Netflix's user interface with user
+              authentication functionality.{" "}
             </p>
             <div className="tech-skills-alt">
               <p>React</p>

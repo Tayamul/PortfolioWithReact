@@ -5,7 +5,7 @@
 
 .container {
   width: 90%;
-  height: 47rem;
+  height: 40rem;
   margin: 80px auto 0;
   padding-top: 90px;
 }
@@ -128,7 +128,7 @@
 @media (max-width: 990px) {
   .container {
     margin: 60px auto 0;
-    height: 67rem;
+    height: 56rem;
   }
 
   .profile {
@@ -203,7 +203,7 @@
 @media (max-width: 450px) {
   .container {
     margin: 40px auto 0;
-    height: 69rem;
+    height: 48rem;
   }
 
   #profile-pic {
