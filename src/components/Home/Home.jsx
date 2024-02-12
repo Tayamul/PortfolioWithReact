@@ -41,15 +41,12 @@ const Home = () => {
               </motion.a>
             </div>
             <div className="cta">
-              <a
-                href="https://drive.google.com/file/d/1MyGkLw1HnLdYmTqNUEt_NDwK-OLTHMDM/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="cta-btn">View CV</button>
-              </a>
               <a href="#contact">
-                <button className="cta-btn2">Stay in touch</button>
+                <button className="cta-btn">
+                  Let's connect!
+                  <div className="cta-btn__horizontal"></div>
+                  <div className="cta-btn__vertical"></div>
+                </button>
               </a>
             </div>
           </div>
