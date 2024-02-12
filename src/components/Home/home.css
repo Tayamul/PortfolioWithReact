@@ -170,7 +170,7 @@
 @media (max-width: 990px) {
   .container {
     margin: 60px auto 0;
-    height: 56rem;
+    height: 60rem;
   }
 
   .profile {
@@ -209,10 +209,6 @@
     font-size: 1.1rem;
   }
 
-  .cta-btn2 {
-    font-size: 1.1rem;
-  }
-
   .tech-stack {
     flex-direction: column;
     justify-content: center;
@@ -245,7 +241,7 @@
 @media (max-width: 450px) {
   .container {
     margin: 40px auto 0;
-    height: 48rem;
+    height: 50rem;
   }
 
   #profile-pic {
@@ -267,10 +263,6 @@
   }
 
   .cta-btn {
-    font-size: 1rem;
-  }
-
-  .cta-btn2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }

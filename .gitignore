@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 #access-key
-src/accessKey.js
+.env

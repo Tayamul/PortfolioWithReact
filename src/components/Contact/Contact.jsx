@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import "./contact.css";
-import { SiLinkedin } from "react-icons/si";
-import { HiOutlineMail } from "react-icons/hi";
-import { motion } from "framer-motion";
 import EmailIcon from "../../assets/EmailIcon.png";
-import { ACCESS_KEY } from "../../accessKey";
 import notify from "../../libs/toast";
 import { Toaster } from "react-hot-toast";
 
@@ -12,12 +8,13 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const accessKey = process.env.REACT_APP_ACCESS_KEY;
 
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", ACCESS_KEY);
+    formData.append("access_key", accessKey);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -35,9 +32,9 @@ const Contact = () => {
       setName("");
       setEmail("");
       setMessage("");
-      notify("success", "Email sent successfully!");
+      notify("success", "I received your email. Thanks!");
     } else {
-      notify("error", "Please fill all the fields");
+      notify("error", "Invalid access key. Please refresh!");
     }
   };
 
