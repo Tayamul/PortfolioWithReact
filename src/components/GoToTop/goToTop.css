@@ -1,0 +1,47 @@
+.top-btn {
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+  color: #f5f5f5;
+  background-color: #ff808b;
+
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+@keyframes gototop {
+  0% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
+.top-btn-icon {
+  animation: gototop 1.2s linear infinite alternate-reverse;
+}
+
+.top-btn:hover {
+  background-color: #f5f5f5;
+  color: #ff808b;
+  border: 1px solid #ff808b;
+  box-shadow: 0 0 10px 1px #ff808b;
+}
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 550px) {
+  .top-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+  }
+}
