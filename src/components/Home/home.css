@@ -19,7 +19,8 @@
 #profile-pic {
   width: 25rem;
   height: auto;
-  border: 3px solid rgba(255, 128, 139, 0.7);
+  border: 3px double rgba(255, 128, 139, 0.7);
+  box-shadow: 0 0 15px rgba(255, 128, 139, 0.7);
   border-radius: 50%;
   margin-right: 6rem;
 }

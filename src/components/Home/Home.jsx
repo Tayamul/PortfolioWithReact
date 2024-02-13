@@ -12,9 +12,9 @@ const Home = () => {
         <div className="profile">
           <img id="profile-pic" src={me} alt="Personal photo of Tayamul" />
           <div id="profile-summary">
-            <h1>Full Stack Developer 👋🏻</h1>
+            <h1>Full Stack Engineer 👋🏻</h1>
             <p>
-              Hi, I'm Tayamul Rai. A Software Developer Intern with 6+ months
+              Hi, I'm Tayamul Rai. A Software Engineering Intern with 6+ months
               experience at a SaaS startup, proficient in TypeScript and
               Next.js.{" "}
             </p>

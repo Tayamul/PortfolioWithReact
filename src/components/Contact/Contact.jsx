@@ -8,13 +8,12 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const accessKey = process.env.REACT_APP_ACCESS_KEY;
 
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", accessKey);
+    formData.append("access_key", "c8e68015-f460-458b-95c7-0eec70e193a7");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -34,7 +33,7 @@ const Contact = () => {
       setMessage("");
       notify("success", "I received your email. Thanks!");
     } else {
-      notify("error", "Invalid access key. Please refresh!");
+      notify("error", "Invalid access key. Please try again later!");
     }
   };
 
@@ -46,35 +45,37 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-container-left">
           <form onSubmit={onSubmit} className="contact-form">
-            <div>
-              <input
-                type="text"
-                name="name"
-                placeholder="Your name"
-                className="form-input"
-                autoComplete="off"
-                required
-                value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your email"
-                className="form-input"
-                autoComplete="off"
-                required
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-              />
-            </div>
+            <label>Full Name</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              className="form-input"
+              autoComplete="off"
+              required
+              value={name}
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
+            />
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              className="form-input"
+              autoComplete="off"
+              required
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
+            />
+
+            <label>Message</label>
             <textarea
               name="message"
-              placeholder="Write a message"
+              placeholder="Enter your message"
               id="form-message"
               autoComplete="off"
               required
@@ -99,59 +100,3 @@ const Contact = () => {
 };
 
 export default Contact;
-/*
-return (
-  <section id="contact">
-    <p>CONTACT</p>
-    <h1>Drop me an email! Connect with me on LinkedIn!</h1>
-    <div class="contact-container">
-      <div className="contact-content">
-        <motion.a
-          whileHover={{ scale: 1.2, transition: { duration: 0.3 } }}
-          whileTap={{ scale: 0.9 }}
-          href="https://linkedin.com/in/tayamul-rai"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="Visit Tayamul's LinkedIn profile"
-        >
-          <SiLinkedin size={30} color="#2d2e32" className="contact-icons" />
-        </motion.a>
-        <div className="contact-text">
-          <a
-            href="https://www.linkedin.com/in/tayamul-rai"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Visit Tayamul's LinkedIn profile"
-          >
-            <h2>LinkedIn</h2>
-            <p>linkedin.com/in/tayamul-rai</p>
-          </a>
-        </div>
-      </div>
-      <div className="contact-content">
-        <motion.a
-          whileHover={{ scale: 1.2, transition: { duration: 0.3 } }}
-          whileTap={{ scale: 0.9 }}
-          href="mailto: rai_tayamul@hotmail.com"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="Get in touch with Tayamul via email"
-        >
-          <HiOutlineMail size={35} color="#2d2e32" />
-        </motion.a>
-        <div className="contact-text">
-          <a
-            href="mailto: rai_tayamul@hotmail.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Get in touch with Tayamul via email"
-          >
-            <h2>Mail</h2>
-            <p>rai_tayamul@hotmail.com</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-);
-*/
