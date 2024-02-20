@@ -7,7 +7,7 @@ const About = () => {
     <section id="about">
       <div id="about-summary">
         <p id="about-title">ABOUT ME</p>
-        <h1>Autonomous Programmer based in London, UK 📍</h1>
+        <h1>Self-motivated developer based in London, UK 📍</h1>
         <p>
           An individual with a passion for leveraging software solutions to
           create positive impact in people's lives.
@@ -17,9 +17,8 @@ const About = () => {
           undertaking a coding bootcamp.
         </p>
         <p>
-          Currently, I am a Software Engineering Intern focused on creating a
-          SaaS platform by engaging and collaborating with a cross-functional
-          team.
+          Currently, I am a Software Developer Intern focused on creating a SaaS
+          platform by engaging and collaborating with a cross-functional team.
         </p>
         <p>
           In my free time, I research the latest front-end technologies to
