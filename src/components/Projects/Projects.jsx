@@ -12,6 +12,8 @@ import GS2 from "../../assets/GS2.webp";
 import newsApi from "../../assets/News-API.webp";
 import netflix1 from "../../assets/netflix1.webp";
 import netflix2 from "../../assets/netflix2.webp";
+import trello from "../../assets/trello.png";
+import trelloMobile from "../../assets/trellom.png";
 
 const Projects = () => {
   return (
@@ -19,6 +21,70 @@ const Projects = () => {
       <div id="projects-container">
         <p>PORTFOLIO</p>
         <h1>Each project has its own feature and functionality</h1>
+
+        {/* Trello Clone */}
+        <div className="projects-section">
+          <a
+            href="https://tayamul-trello-clone.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit the Trello clone website hosted on Vercel"
+          >
+            <img
+              src={trello}
+              alt="Trello clone screenshot"
+              className="projects-img"
+            />
+          </a>
+          <a
+            href="https://tayamul-trello-clone.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit the Trello clone website hosted on Verce"
+          >
+            <img
+              src={trelloMobile}
+              alt="Trello clone screenshot"
+              className="projects-img2"
+            />
+          </a>
+          <div className="projects-summary">
+            <h2>Trello Clone</h2>
+            <p>
+              Built a Trello clone utilising the 'react-beautiful-dnd' library,
+              offering users a seamless experience through a simple interface.
+            </p>
+            <div className="tech-skills">
+              <p>TypeScript</p>
+              <p>Next.js</p>
+              <p>TailwindCSS</p>
+            </div>
+            <div className="live-code">
+              <motion.a
+                href="https://github.com/Tayamul/Trello-Clone"
+                target="_blank"
+                rel="noreferrer"
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+                aria-label="Get more insights on how the Trello clone was developed from the ground up"
+              >
+                Code
+                <SiGithub style={{ marginLeft: "5px" }} />
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+                href="https://tayamul-trello-clone.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit the Trello clone website hosted on Vercel"
+              >
+                Live Demo
+                <BsBoxArrowUpRight style={{ marginLeft: "5px" }} />
+              </motion.a>
+            </div>
+          </div>
+        </div>
 
         {/* Netflix Clone */}
         <div className="projects-section-alt">

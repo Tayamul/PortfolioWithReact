@@ -12,11 +12,10 @@ const Home = () => {
         <div className="profile">
           <img id="profile-pic" src={me} alt="Portrait of Tayamul" />
           <div id="profile-summary">
-            <h1>Front-end Developer 👋🏻</h1>
+            <h1>Tayamul Rai</h1>
             <p>
-              Hi, I'm Tayamul Rai. A Software Developer Intern with 6+ months
-              experience at a SaaS startup, proficient in TypeScript and
-              Next.js.{" "}
+              A Software Engineer Intern with 7+ months experience at a SaaS
+              startup, proficient in TypeScript and Next.js.{" "}
             </p>
             <div id="socials">
               <motion.a
@@ -57,3 +56,4 @@ const Home = () => {
 };
 
 export default Home;
+/* 👋🏻 📍 */
