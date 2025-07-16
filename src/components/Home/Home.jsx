@@ -14,8 +14,8 @@ const Home = () => {
           <div id="profile-summary">
             <h1>Tayamul Rai</h1>
             <p>
-              A Software Engineer Intern with 7+ months experience at a SaaS
-              startup, proficient in TypeScript and Next.js.{" "}
+              A Software Developer at Mercator Digital. I enjoy bringing
+              creative ideas to life through coding.{" "}
             </p>
             <div id="socials">
               <motion.a

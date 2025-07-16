@@ -7,7 +7,7 @@ const About = () => {
     <section id="about">
       <div id="about-summary">
         <p id="about-title">ABOUT ME</p>
-        <h1>Front-end focused Full Stack Developer</h1>
+        <h1>Full Stack Developer</h1>
         <p>
           An individual with a passion for leveraging software solutions to
           create positive impact in people's lives.
@@ -17,8 +17,13 @@ const About = () => {
           undertaking a coding bootcamp.
         </p>
         <p>
-          Currently, I am a Software Engineer Intern focused on creating a SaaS
-          platform by engaging and collaborating with a cross-functional team.
+          The following year, I interned as a Software Engineer at a startup for
+          8 months, collaborating with designers and engineers to build a SaaS
+          platform using TypeScript and Next.js.
+        </p>
+        <p>
+          Currently, I am a Scala developer at Mercator. This opportunity has
+          allowed me to dive deeper into the world of Functional Programming.
         </p>
         <p>
           In my free time, I research the latest front-end technologies to
