@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../assets/profile-pic.webp";
+import me from "../../assets/profile-pic2.jpg";
 import "./home.css";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
@@ -14,8 +14,8 @@ const Home = () => {
           <div id="profile-summary">
             <h1>Tayamul Rai</h1>
             <p>
-              A Software Developer at Mercator Digital. I enjoy bringing
-              creative ideas to life through coding.{" "}
+              A Software Developer at Mercator Digital. I genuinely enjoy
+              bringing creative ideas to life through coding.{" "}
             </p>
             <div id="socials">
               <motion.a

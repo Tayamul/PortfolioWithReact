@@ -7,7 +7,7 @@ const About = () => {
     <section id="about">
       <div id="about-summary">
         <p id="about-title">ABOUT ME</p>
-        <h1>Full Stack Developer</h1>
+        <h1>Full Stack Engineer</h1>
         <p>
           An individual with a passion for leveraging software solutions to
           create positive impact in people's lives.
@@ -22,8 +22,9 @@ const About = () => {
           platform using TypeScript and Next.js.
         </p>
         <p>
-          Currently, I am a Scala developer at Mercator. This opportunity has
-          allowed me to dive deeper into the world of Functional Programming.
+          Currently, I am a Scala developer at Mercator Digital. This
+          opportunity has allowed me to dive deeper into the world of Functional
+          Programming.
         </p>
         <p>
           In my free time, I research the latest front-end technologies to
