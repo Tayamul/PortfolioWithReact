@@ -46,7 +46,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.projects-img2, .projects-img2-alt {
+.projects-img2, .projects-img2-alt, .projects-img2-alt2 {
   display: none;
 }
 
@@ -176,6 +176,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 0.2rem;
   }
+
+  .projects-img2-alt2 {
+    display: inline;
+    margin-left: 20px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -210,6 +218,12 @@
   }
 
   .projects-img2, .projects-img2-alt {
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+  }
+  
+  .projects-img2-alt2 {
     display: block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 0.2rem;

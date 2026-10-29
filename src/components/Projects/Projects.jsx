@@ -14,6 +14,8 @@ import netflix1 from "../../assets/netflix1.webp";
 import netflix2 from "../../assets/netflix2.webp";
 import trello from "../../assets/trello.png";
 import trelloMobile from "../../assets/trellom.png";
+import poker from "../../assets/poker.png";
+import pokerMobile from "../../assets/pokerMobile.png";
 
 const Projects = () => {
   return (
@@ -21,6 +23,81 @@ const Projects = () => {
       <div id="projects-container">
         <p>PORTFOLIO</p>
         <h1>Each project has its own feature and functionality</h1>
+
+        {/* Poker */}
+        <div className="projects-section-alt">
+          {/* <div className="projects-img"></div> */}
+
+          <div className="projects-summary-alt">
+            <h2>Poker</h2>
+            <p>
+              Full-stack Poker game built with AI-assisted development.{" "}
+            </p>
+            <div className="tech-skills-alt">
+              <p>TypeScript</p>
+              <p>Scala</p>
+            </div>
+            <div className="live-code-alt">
+              <motion.a
+                href="https://github.com/Tayamul/poker-frontend"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Read more on how the Poker frontend is coded"
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+              >
+                Frontend
+                <SiGithub style={{ marginLeft: "25px" }} />
+              </motion.a>
+              <motion.a
+                href="https://github.com/Tayamul/poker-backend"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Read more on how the Poker backend is coded"
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+              >
+                Backend
+                <SiGithub style={{ marginLeft: "30px" }} />
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
+                href="https://poker-at-tayamuls.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit the Poker game"
+              >
+                Live Demo
+                <BsBoxArrowUpRight style={{ marginLeft: "35px" }} />
+              </motion.a>
+            </div>
+          </div>
+          <a
+            href="https://poker-at-tayamuls.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit the Poker game"
+          >
+            <img
+              src={poker}
+              alt="Poker game screenshot"
+              className="projects-img-alt"
+            />
+          </a>
+          <a
+            href="https://poker-at-tayamuls.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit the Poker game"
+          >
+            <img
+              src={pokerMobile}
+              alt="Poker game screenshot"
+              className="projects-img2-alt2"
+            />
+          </a>
+        </div>
 
         {/* Trello Clone */}
         <div className="projects-section">
